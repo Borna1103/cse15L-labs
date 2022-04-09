@@ -1,4 +1,4 @@
-# Cse 15L Tutorial
+# CSE 15L Tutorial
 
 ## Installing VScode
 - Go to the **[VScode Download](https://code.visualstudio.com/Download)** link to download the program.
@@ -14,13 +14,13 @@
 ![image](terminal.jpg)
 
 - Then you want to type the command `ssh [username]@ieng.ucsd.edu` to log into your remote machine.
-- You are then prompted to input a password and afterwards you should be connected like so:
+- You are then prompted to input a **password** and afterwards you should be connected like so:
 
 ![image](login.png)
 
 ---
 ## Trying Some Commands
-### You can try some of these commands in the terminal
+### You can try some of these commands in the **terminal**: 
 ```
 - cd ~
 - cd
@@ -35,8 +35,12 @@
 ---
 ## Moving Files with `scp`
 
+- Using the `scp [file name] [username]@ieng6.ucsd.edu` on your local **terminal** you can copy a file over to your remote server
+
+- Make sure you re-enter your password and that the copy was sucessful
+
 ---
 ## Setting an SSH Key
-
+- Creating an SSH Key will make loging into your personal remote machine without you having to login
 ---
 ## Optimizing Remote Running
