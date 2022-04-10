@@ -38,9 +38,12 @@
 - Using the `scp [file name] [username]@ieng6.ucsd.edu` on your local **terminal** you can copy a file over to your remote server
 
 - Make sure you re-enter your password and that the copy was sucessful
+![image](scp.png)
 
 ---
 ## Setting an SSH Key
 - Creating an SSH Key will make loging into your personal remote machine without you having to login
 ---
 ## Optimizing Remote Running
+
+- Using the command `;` while stringing together commands will allow you to run multiple commands at once.
