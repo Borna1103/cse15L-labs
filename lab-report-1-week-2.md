@@ -44,3 +44,4 @@
 - Creating an SSH Key will make loging into your personal remote machine without you having to login
 ---
 ## Optimizing Remote Running
+- Log into your private server and 
