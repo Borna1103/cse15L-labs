@@ -58,9 +58,11 @@ Enter passphrase (empty for no passphrase):  (Do not add a parahrase)
 ```
 
 - The outcome should look like this:
+
 ![image](outcome.jpg)
 
 - Then you have to input:
+
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
@@ -71,6 +73,7 @@ $ <logout>
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
+
 - Next time you login you with `ssh` you will not have to input a password
 ---
 ## Optimizing Remote Running
