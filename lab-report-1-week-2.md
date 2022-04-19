@@ -80,9 +80,9 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 - Use the `;` command to string together multiple commands in your terminal to run multiple commands.
 - Using this command you can string together lines of commands into a single command
 
-![image](semicolon.jpg)
+![image](semicolon.png)
 
 - Another command you can use is quotations `""` after ssh command to run commands post ssh
 
-![image](quotations.jpg)
+![image](quotations.png)
 
