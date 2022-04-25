@@ -19,7 +19,9 @@
 ![Fix2](https://user-images.githubusercontent.com/72767545/165001395-429828fc-ad2c-4faa-a49d-0bcee1fda0b2.jpg)
 
 ### Failure Output
-![Failure 2]()
+
+![Failure2](https://user-images.githubusercontent.com/72767545/165018934-df07ba55-bdad-440c-aaa8-60e99287e57b.png)
+
 
 ## Change #3
 - This change makes it so an empty file will not return anything and instead throw an exceptoion. The bug here is that the code runs when there is nothing to read in the file and returns an Empty Array. A symptom of this bus is that the resultant is a print of an empty ArrayList, showing brackets and nothing inside.
@@ -30,4 +32,6 @@
 ![Fix3](https://user-images.githubusercontent.com/72767545/165002874-4257e6e2-5eb8-4421-8bfd-015dc8678055.jpg)
 
 ### Failure Output
-![Failure 3]()
+
+![Failure3](https://user-images.githubusercontent.com/72767545/165019012-687bbeca-bd62-4e30-931d-80495d35a2fd.png)
+
