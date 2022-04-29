@@ -13,8 +13,8 @@ public class MarkdownParse {
 	    if(markdown.indexOf("[", currentIndex-1) == -1){return toReturn;}
 =======
 	    if(markdown.indexOf("[", currentIndex-1) == -1){
-		    if(toReturn.length == 0){
-			    thows new StringIndexOutOfBoundsException();
+		    if(toReturn.size() == 0){
+			    throw new StringIndexOutOfBoundsException();
 		    }
 		    return toReturn;}
 >>>>>>> 01b901d4bc1992b8879bf65853548309b6121aaa
