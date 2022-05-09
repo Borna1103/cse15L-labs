@@ -2,6 +2,8 @@
 
 ## Streamlining ssh Configuration
 
+Below is creating and editing the config file in .ssh
+
 
 ## Set up Github Access from ieng6
 
