@@ -1,6 +1,6 @@
 # Lab report 3
-- This is my Github Repo: 
-- This is my teams Github Repo: 
+- This is my Github Repo: [Repo](https://github.com/Borna1103/cse15L-labs)
+- This is my teams Github Repo: [Repo](https://github.com/michellem8/markdown-parser)
 
 
 ## Expected Outputs:
