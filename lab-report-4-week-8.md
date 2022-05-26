@@ -19,3 +19,25 @@
 ## Tests made on `MarkdownParseTest.java`:
 
 ![markdowntest implimentation](https://user-images.githubusercontent.com/72767545/170447585-b2edbe8c-54f8-4fb9-ac4d-7c0ea2baf1df.png)
+
+## Own implimentation:
+
+![ownsnip](https://user-images.githubusercontent.com/72767545/170450506-b9cdb25c-6e62-4f7d-a4a3-8618a8a70bb1.png)
+
+all test failed due to `AssertionError`
+
+## Others implimentation:
+
+![othersnip](https://user-images.githubusercontent.com/72767545/170450771-eb21eef1-5611-4f05-b3b5-c2e6141f5852.png)
+
+all test failed due to `AssertionError`
+
+## Changes to code:
+
+I think for my code, that there only needs to be a small change to remove graves from the links.
+Adding a line of code that, if a grave is seen, skip over it in the output would make snip 1 work.
+I would also need to delete any duplicate links, like google.com twice, I think that I could do these changes in less than 10 lines.
+
+For snip 2, t was close. I would need to modify the file so closed parenthesis can be read, up until the last closed parenthesis, as a.com(()) was not fulyl read.
+
+For snip 3 a lot would need to be changed. For example to beable to remove links without parenthesis endings, indents, commans and other error prone symbols that would get in the way.
